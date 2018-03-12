@@ -2,4 +2,5 @@ FROM alpine
 
 WORKDIR /FromDockerAutobuild
 
-RUN curl https://developer.android.com/ndk/downloads/index.html
+RUN wget https://developer.android.com/ndk/downloads/index.html && \
+    cat index.html
