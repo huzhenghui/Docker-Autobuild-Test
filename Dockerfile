@@ -2,4 +2,4 @@ FROM alpine
 
 WORKDIR /FromDockerAutobuild
 
-RUN wget https://github.com/trufflesuite/ganache/releases/download/v1.0.2/Ganache.appx
+RUN curl https://developer.android.com/ndk/downloads/index.html
