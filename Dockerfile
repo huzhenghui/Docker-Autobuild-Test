@@ -2,5 +2,5 @@ FROM alpine
 
 WORKDIR /FromDockerAutobuild
 
-RUN wget https://developer.android.com/ndk/downloads/index.html && \
-    cat index.html
+RUN wget https://app.vagrantup.com/laravel/boxes/homestead/versions/8.1.0/providers/virtualbox.box && \
+    ls virtualbox.box
