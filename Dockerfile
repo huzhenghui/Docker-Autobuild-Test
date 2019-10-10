@@ -3,5 +3,5 @@ FROM alpine
 WORKDIR /FromDockerAutobuild
 
 RUN apk add axel && \
-    axel -n 1 https://vagrantcloud.com/kalilinux/boxes/rolling/versions/2019.3.0/providers/virtualbox.box && \
+    axel -n 1 https://github.com/macvim-dev/macvim/releases/download/snapshot-157/MacVim.dmg && \
     ls -l
