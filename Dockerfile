@@ -3,5 +3,5 @@ FROM alpine
 WORKDIR /FromDockerAutobuild
 
 RUN apk add axel && \
-    axel -n 1 https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.dmg && \
+    axel -n 1 https://storage-waterfox.netdna-ssl.com/releases/osx64/installer/Waterfox%20Classic%202019.10%20Setup.dmg && \
     ls -l
