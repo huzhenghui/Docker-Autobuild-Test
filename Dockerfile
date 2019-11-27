@@ -3,5 +3,5 @@ FROM alpine
 WORKDIR /FromDockerAutobuild
 
 RUN apk add axel && \
-    axel -n 1 https://vagrantcloud.com/generic/boxes/rhel8/versions/2.0.4/providers/virtualbox.box && \
+    axel -n 1 https://vagrantcloud.com/kalilinux/boxes/rolling/versions/2019.4.0/providers/virtualbox.box && \
     ls -l
